@@ -7,3 +7,6 @@
 [submodule "vendor/Garmr"]
 	path = vendor/Garmr
 	url = git://github.com/mozilla/Garmr.git
+[submodule "vendor/ssllabs-scan"]
+	path = vendor/ssllabs-scan
+	url = https://github.com/ssllabs/ssllabs-scan.git
