@@ -6,7 +6,7 @@ GARMR=`which garmr`
 DIRB=`which dirb`
 ARACHNI=`which arachni`
 HEARTBLEED=`which Heartbleed`
-
+SSLLABSSCAN=`which ssllabs-scan`
 ERRORS=0
 
 if [ -z $ARACHNI ]
@@ -55,6 +55,16 @@ if [ -z $HEARTBLEED ]
     MESSAGE="Heartbleed is not installed in your path, try installing it (https://github.com/FiloSottile/Heartbleed) and adding it to your path"
     ERRORS=$ERRORS+1 
 fi
+
+if [ -z $SSLLABSSCAN ] 
+  then
+    MESSAGE="Ssl Labs scan is not installed in your path, try installing it (https://github.com/ssllabs/ssllabs-scan) and add the following variables to your /etc/.profile export GOROOT=/usr/local/go
+export GOPATH=/opt/go
+export GOBIN=$GOPATH/bin
+export PATH=$PATH:$GOBIN:$GOROOT/bin"
+    ERRORS=$ERRORS+1 
+fi
+
 
 if [[ $ERRORS > 0 ]]
   then
