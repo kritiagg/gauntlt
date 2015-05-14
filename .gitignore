@@ -42,3 +42,6 @@ my_attacks
 
 # Gruyere testing
 vendor/gruyere/source/stored-data.txt
+
+# rubymine
+/.idea/*
