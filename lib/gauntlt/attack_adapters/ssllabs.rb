@@ -1,5 +1,5 @@
 When /^I launch (?:a|an) "ssllabs-scan" attack with:$/ do |command|
-	# ssllabs output function prints the output even if the execution is successful
+	# prints the scan tool output even whether the execution is successful or not
   # all_output variable has the complete output of the command
   run_with_profile command
   puts "Raw Tool output:$$ start"
