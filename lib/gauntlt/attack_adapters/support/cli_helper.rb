@@ -40,5 +40,5 @@ Before('@slow') do
 end
 
 Before('@reallyslow') do
-  @aruba_timeout_seconds = 600
+  @aruba_timeout_seconds = 1200
 end
