@@ -13,4 +13,4 @@ sudo make
 sudo make install
 # clone gauntlt
 git clone --recursive https://github.com/kritiagg/gauntlt.git
-
+gem install gauntlt
