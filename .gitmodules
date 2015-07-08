@@ -9,4 +9,5 @@
 	url = https://github.com/mozilla/Garmr.git 
 [submodule "vendor/ssllabs-scan"]
 	path = vendor/ssllabs-scan
-	url = https://github.com/ssllabs/ssllabs-scan.git
+	url = https://github.com/kritiagg/ssllabs-scan.git
+        branch = stable
