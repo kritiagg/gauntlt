@@ -13,4 +13,4 @@
         branch = stable
 [submodule "vendor/drown-scan"]
 	path = vendor/drown-scan
-	url = https://github.com/nimia/public_drown_scanner.git
+	url = https://github.com/kritiagg/public_drown_scanner.git
