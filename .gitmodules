@@ -11,3 +11,6 @@
 	path = vendor/ssllabs-scan
 	url = https://github.com/kritiagg/ssllabs-scan.git
         branch = stable
+[submodule "vendor/drown-scan"]
+	path = vendor/drown-scan
+	url = https://github.com/nimia/public_drown_scanner.git
